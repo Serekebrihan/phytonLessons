@@ -1,4 +1,4 @@
-class Planet:
+"""class Planet:
     def __init__(self, name, planet_type, star):
         try:
             if not isinstance(name, str) or not isinstance(planet_type, str) or not isinstance(star, str):
@@ -23,19 +23,20 @@ class Planet:
 planet_1 = Planet("earth", "round", "")
 planet_2 = Planet("mars", "round", "earth")
 planet_3 = Planet("jupiter", "round", "earth")
-
-print(planet_1)
-print(planet_2)
-print(planet_3)
-print(planet_1.orbit())
-print(planet_2.orbit())
-print(planet_3.orbit())
+#
+#print(planet_1)
+#print(planet_2)
+#print(planet_3)
+#print(planet_1.orbit())
+#print(planet_2.orbit())
+#print(planet_3.orbit())
 
 
 ###
 #### The above solution will also has the same output but Freecodecamp wont accept it
 ####
 ####
+"""
 class Planet:
     def __init__(self, name, planet_type, star):
         if not isinstance(name, str) or not isinstance(planet_type, str) or not isinstance(star, str):
